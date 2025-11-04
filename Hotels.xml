@@ -1,4 +1,4 @@
-<Hotels xmlns="http://venus.sod.asu.edu/WSRepository/xml" 
+<Hotels xmlns="https://pengiie.github.io/cse445-xml-repo" 
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 		xsi:schemaLocation="">
 	<Hotel>

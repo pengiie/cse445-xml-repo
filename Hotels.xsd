@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-			xmlns="http://venus.sod.asu.edu/WSRepository/xml"
-			targetNamespace="http://venus.sod.asu.edu/WSRepository/xml"
+			xmlns="https://pengiie.github.io/cse445-xml-repo"
+			targetNamespace="https://pengiie.github.io/cse445-xml-repo"
 			elementFormDefault="qualified"
 			attributeFormDefault="unqualified">
 	<xsd:element name="Hotels" type="HotelsType"/>
