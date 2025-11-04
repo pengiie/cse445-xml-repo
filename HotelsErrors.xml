@@ -1,0 +1,127 @@
+<Hotel xmlns="http://venus.sod.asu.edu/WSRepository/xml" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="">
+	<Hotel>
+		<Name>Drury Inn &amp; Suites Phoenix Airport</Name>
+		<Phone>877-378-2985</Phone>
+		<Address>
+			<Number>3333</Number>
+			<Street>University Dr.</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+		<Rating>4.6</Rating>
+	</Hotel>
+	<Hotel>
+		<Phone>844-631-0595</Phone>
+		<Phone>602-468-0700</Phone>
+		<Address>
+			<Number>2401</Number>
+			<Street>East Camelback Road</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+		<Rating>4.4</Rating>
+	</Hotel>
+	<Hotel>
+		<Name>Crowne Plaza Phoenix Airport - Phx by IHG</Name>
+		<Address>
+			<Number>4300</Number>
+			<Street>East Washington Street</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+		<Rating>4.2</Rating>
+	</Hotel>
+	<Hotel>
+		<Name>Holiday Inn &amp; Suites Phoenix Airport North by IHG</Name>
+		<Phone>602-244-8800</Phone>
+		<Address>
+			<Number>1515</Number>
+			<Street>N 44th Street</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+	</Hotel>
+	<Hotel>
+		<Name>Radisson Hotel Phoenix Airport</Name>
+		<Phone>602-661-3160</Phone>
+		<Address>
+			<Number>427</Number>
+			<Street>N 44th Street</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+		<Rating>4.0</Rating>
+	</Hotel>
+	<Hotel>
+		<Name>Hilton Garden Inn Phoenix Airport North</Name>
+		<Name>Radisson Hotel Phoenix Airport</Name>
+		<Phone>602-306-2323</Phone>
+		<Address>
+			<Number>3838</Number>
+			<Street>E Van Buren Street</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Studio 6 Tempe, AZ</Name>
+		<Phone>602-838-5288</Phone>
+		<Address>
+			<Number>4909</Number>
+			<Street>S Wendler Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>DoubleTree by Hilton Hotel Phoenix Tempe</Name>
+		<Phone>480-967-1441</Phone>
+		<Address>
+			<Number>2100</Number>
+			<Street>S Priest Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Home2 Suites by Hilton Phoenix Airport South</Name>
+		<Phone>602-414-0099</Phone>
+		<Address>
+			<Number>4725</Number>
+			<Street>E Broadway Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85040</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Legacy Golf Resort</Name>
+		<Phone>602-305-5500</Phone>
+		<Address>
+			<Number>6808</Number>
+			<Street>S 32nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85042</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+</Hotel>

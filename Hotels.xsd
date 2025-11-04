@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			xmlns="http://venus.sod.asu.edu/WSRepository/xml"
+			targetNamespace="http://venus.sod.asu.edu/WSRepository/xml"
+			elementFormDefault="qualified"
+			attributeFormDefault="unqualified">
+	<xsd:element name="Hotels" type="HotelsType"/>
+	<xsd:complexType name="HotelsType">
+		<xsd:sequence>
+			<xsd:element name="Hotel"
+						 type="HotelInfoType"
+						 minOccurs="1"
+						 maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="HotelInfoType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name="Address" type="AddressType" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Rating" type="xsd:float" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="AddressType">
+		<xsd:sequence>
+			<xsd:element name="Number" type="xsd:int" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name="NearestAirport" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:simpleType name="PositiveFloat">
+		<xsd:restriction base="xsd:float">
+			<xsd:minInclusive value="0"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="PhoneType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="StateType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[A-Z][A-Z]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="ZipType">
+		<xsd:restriction base="xsd:positiveInteger">
+			<xsd:pattern value="[0-9]{5}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+</xsd:schema>
